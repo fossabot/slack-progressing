@@ -1,4 +1,5 @@
 from os import environ
+from time import sleep
 
 from slack_progressing import SlackProgressing
 
@@ -16,6 +17,8 @@ def main():
         loss -= 1.0
         d = {"acc": acc, "loss": loss}
         sp.set_params(d)
+
+        sleep(1)
 
 
 if __name__ == "__main__":
