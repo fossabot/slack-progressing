@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "slack-progressing"
+version = "0.0.1"
+description = "Deep Learning with Slack"
+authors = ["Shunta Komatsu <skmatz217@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+homepage = "https://skmatz.com"
+repository = "https://github.com/skmatz/slack-progressing"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+requests = "^2.22"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^18.3-alpha.0", allows-prereleases = true}
+flake8 = "^3.7"
+pylint = "^2.4"
+pytest = "^5.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
