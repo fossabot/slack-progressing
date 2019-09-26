@@ -1,5 +1,7 @@
 # Slack Progressing
 
+[![](https://img.shields.io/travis/skmatz/slack-progressing)](https://travis-ci.org/skmatz/slack-progressing)
+
 ## Overview
 
 The **Slack Progressing** helps you monitor your deep learning activity with Slack.
