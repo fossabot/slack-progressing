@@ -1,0 +1,11 @@
+language: python
+python:
+  - 3.7
+before_install:
+  - pip install poetry
+install:
+  - poetry install
+script:
+  - poetry run isort -c -rc slack_progressing/
+  - poetry run flake8 slack_progressing/
+  - poetry run pytest tests/
