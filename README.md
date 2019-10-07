@@ -31,7 +31,7 @@ def main():
     acc = 0.0
     loss = 10.0
 
-    for _epoch in sp.progress(range(10)):
+    for _epoch in sp(range(10)):
         acc += 1.0
         loss -= 1.0
         d = {"acc": acc, "loss": loss}
