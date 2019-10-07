@@ -38,6 +38,10 @@ class Slack:
             "username": self.name,
         }
         r = requests.post(url=self._POST_URL, data=payload).json()
+        if not r["ok"]:
+            raise SlackError(
+                "Slack API error: `{}` occurred.".format(r["error"])
+            )
 
         self._ts = r["message"]["ts"]
 
@@ -57,3 +61,7 @@ class Slack:
             "username": self.name,
         }
         requests.post(url=self._UPDATE_URL, data=payload)
+
+
+class SlackError(Exception):
+    pass
