@@ -1,13 +1,13 @@
 # Slack Progressing
 
 [![](https://img.shields.io/travis/skmatz/slack-progressing)](https://travis-ci.org/skmatz/slack-progressing)
+[![](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fskmatz%2Fslack-progressing.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fskmatz%2Fslack-progressing?ref=badge_shield)
 
 ## Overview
 
 The **Slack Progressing** helps you monitor your deep learning activity with Slack.
 
 ![demo](https://i.imgur.com/iPM0FxP.gif)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fskmatz%2Fslack-progressing.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fskmatz%2Fslack-progressing?ref=badge_shield)
 
 ## Get Started
 
@@ -55,4 +55,4 @@ poetry install
 
 
 ## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fskmatz%2Fslack-progressing.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fskmatz%2Fslack-progressing?ref=badge_large)
+[![](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fskmatz%2Fslack-progressing.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fskmatz%2Fslack-progressing?ref=badge_large)
